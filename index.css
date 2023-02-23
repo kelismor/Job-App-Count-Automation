@@ -1,0 +1,61 @@
+/*html, body {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)),url(https://cdn.pixabay.com/photo/2019/06/06/16/07/technology-4256275_960_720.jpg);
+    background-size: cover;   
+    font-family: 'Bungee Spice', cursive; 
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background: linear-gradient(black, lightseagreen, rgba(17, 44, 38, 0.938));
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgba(6, 28, 124, 0.915);
+      
+}
+
+#save-btn {
+    background: rgba(19, 21, 20, 0.892);
+      
+}
+ 
+
+#save-el {
+    font-weight: bold;
+   
+}
